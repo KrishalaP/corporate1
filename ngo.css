@@ -315,3 +315,59 @@ footer {
 #navigate .nav1 .btn1 {
     margin-top: 20px; 
 }
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+@media (max-width: 768px) {
+    header img {
+        width: 150px; 
+    }
+    
+    #menu {
+        display: none; 
+    }
+    
+    header .container .first .btn {
+        display: none; 
+    }
+    
+    #first {
+        background-position: center; 
+        padding: 100px 20px; 
+    }
+    
+    .w50 {
+        width: 100%; 
+        padding-right: 0; 
+    }
+    
+    .educate > div {
+        width: 100%; 
+        margin-bottom: 20px; 
+    }
+}
+
+
+@media (max-width: 480px) {
+    header img {
+        width: 120px; 
+    }
+    
+    header .container .first {
+        flex-direction: column; 
+        align-items: center; 
+    }
+    
+    header .container .first nav ul {
+        display: none; 
+    }
+    
+    header .container .first .btn {
+        display: block; 
+        margin-top: 10px; 
+    }
+}
