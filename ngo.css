@@ -370,4 +370,40 @@ footer {
         display: block; 
         margin-top: 10px; 
     }
+}@media (max-width: 768px) {
+    header img {
+        width: 150px;
+    }
+
+
+    #menu {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    header .container .first .btn {
+        display: none; 
+    }
+
+
+    #hero {
+        padding: 200px 20px; 
+    }
+
+ 
+    .educate > div, .heart > div {
+        width: 100%; 
+        margin-bottom: 20px; 
+    }
+
+    /* Responsive news section */
+    .news, .earthquake {
+        width: 100%; 
+        float: none; 
+    }
+
+   
+    footer {
+        text-align: center; 
+}
 }
